@@ -5,7 +5,7 @@ myFun.onresult = (e)=>{
     read(text)
 }
 function read(text){
-    let seach = new webkitSpeechSynthesisUtterance();
+    let seach = new SpeechSynthesisUtterance();
     seach.text = text;
     if (text='hello') {
         seach.text ='bye'

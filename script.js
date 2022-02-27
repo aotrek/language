@@ -15,5 +15,5 @@ function read(text){
         seach.text='please try again'
     }
     document.getElementById('res').innerText=seach.text
-    window.SpeechSynthesis.speck(seach);
+    window.speechSynthesis.speck(seach);
 }
